@@ -1,0 +1,16 @@
+@startuml
+skinparam classAttributeIconSize 0
+' to use standard notation for public, protected, private
+' instead of icons
+
+class Main {
++ {static} main(String[] args) : void
+}
+
+class CompoundInterest {
+- principal : double
+- rate : double
++ Compound(principal : double, rate : double)
++ simulate(numYears : int)
+}
+@enduml

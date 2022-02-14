@@ -1,0 +1,29 @@
+@startuml
+skinparam classAttributeIconSize 0
+' to use standard notation for public, protected, private
+
+class Main {
++ {static} main(String[] args) : void
+}
+
+abstract class Interest {
+# principal : double
+# rate : double
++ Interest(principal : double, rate : double)
++ {abstract} simulate(numYears : int)
+}
+
+class CompoundInterest2 extends Interest {
++ CompoundInterest2(principal : double, rate : double)
++ simulate(numYears : int)
+}
+
+class SimpleInterest2 extends Interest {
++ SimpleInterest2(principal : double, rate : double)
++ simulate(numYears : int)
+}
+
+' position classes
+Main -[hidden]down-> SimpleInterest2
+SimpleInterest2 -[hidden]right-> CompoundInterest2
+@enduml
