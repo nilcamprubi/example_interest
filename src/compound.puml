@@ -10,7 +10,7 @@ class Main {
 class CompoundInterest {
 - principal : double
 - rate : double
-+ Compound(principal : double, rate : double)
++ CompoundInterest(principal : double, rate : double)
 + simulate(numYears : int)
 }
 @enduml
