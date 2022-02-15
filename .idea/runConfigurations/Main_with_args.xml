@@ -3,6 +3,7 @@
     <option name="MAIN_CLASS_NAME" value="MainWithArgs" />
     <module name="example_interest" />
     <option name="PROGRAM_PARAMETERS" value="6000 3.0 5" />
+    <option name="VM_PARAMETERS" value="-enableassertions" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

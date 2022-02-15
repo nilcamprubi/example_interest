@@ -3,7 +3,7 @@ skinparam classAttributeIconSize 0
 ' to use standard notation for public, protected, private
 ' instead of icons
 
-class Main {
+class MainCompound {
 + {static} main(String[] args) : void
 }
 

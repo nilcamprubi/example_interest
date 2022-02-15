@@ -1,5 +1,6 @@
 public class MainWithArgs {
   public static void main(String[] args) {
+    assert args.length == 3 : "must be exactly 3 arguments";
     double principal = Double.parseDouble(args[0]); // initial capital
     double rate = Double.parseDouble(args[1]); // percent annual interest rate
     int numYears = Integer.parseInt(args[2]); // number of years passed

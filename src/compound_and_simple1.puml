@@ -2,7 +2,7 @@
 skinparam classAttributeIconSize 0
 ' to use standard notation for public, protected, private
 
-class Main {
+class MainCompoundAndSimple {
 + {static} main(String[] args) : void
 }
 
@@ -21,6 +21,6 @@ class SimpleInterest {
 }
 
 ' position classes
-Main -[hidden]down-> SimpleInterest
+MainCompoundAndSimple -[hidden]down-> SimpleInterest
 SimpleInterest -[hidden]right-> CompoundInterest
 @enduml
