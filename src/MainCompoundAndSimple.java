@@ -9,6 +9,7 @@ public class MainCompoundAndSimple {
     System.out.println("Compound interest");
     CompoundInterest compoundInterest = new CompoundInterest(principal, rate);
     compoundInterest.simulate(numYears);
+
     System.out.println("Simple interest");
     SimpleInterest simpleInterest = new SimpleInterest(principal, rate);
     simpleInterest.simulate(numYears);

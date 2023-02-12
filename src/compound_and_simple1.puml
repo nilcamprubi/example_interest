@@ -3,7 +3,7 @@ skinparam classAttributeIconSize 0
 ' to use standard notation for public, protected, private
 
 class MainCompoundAndSimple {
-+ {static} main(String[] args) : void
++ {static} main(String[] args)
 }
 
 class CompoundInterest {

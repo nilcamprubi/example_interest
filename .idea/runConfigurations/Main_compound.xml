@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Main compound" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="MainCompound" />
-    <module name="example_interest" />
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
-  </configuration>
-</component>
